@@ -1,0 +1,28 @@
+.key {
+    height: 60px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+    font-size: 14px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.key.never-pressed {
+    background-color: #333;
+    color: #fff;
+}
+
+.key.was-pressed {
+    background-color: #fff;
+    color: #333;
+}
+
+.key.currently-pressed {
+    background-color: #007bff;
+    color: #fff;
+}
